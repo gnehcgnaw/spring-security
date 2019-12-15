@@ -32,7 +32,7 @@ import java.util.function.Function;
 
 /**
  * Generates a default log out page.
- *
+ * 生成默认的注销页面。
  * @author Rob Winch
  * @since 5.1
  */

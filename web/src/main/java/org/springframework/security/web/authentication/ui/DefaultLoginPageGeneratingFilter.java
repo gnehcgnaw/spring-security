@@ -41,7 +41,8 @@ import javax.servlet.http.HttpSession;
  * For internal use with namespace configuration in the case where a user doesn't
  * configure a login page. The configuration code will insert this filter in the chain
  * instead.
- *
+ * 供用户未配置登录页面的情况下供名称空间配置内部使用。配置代码会将此过滤器插入到链中。
+ * 仅在将重定向用于登录页面时才有效。
  * Will only work if a redirect is used to the login page.
  *
  * @author Luke Taylor

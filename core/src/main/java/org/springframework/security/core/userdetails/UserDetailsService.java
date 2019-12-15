@@ -17,6 +17,10 @@
 package org.springframework.security.core.userdetails;
 
 /**
+ * 用于加载用户特定的数据的用户信息服务，并且有多重方式：
+ * 可以查看：https://docs.spring.io/spring-security/site/docs/5.2.2.BUILD-SNAPSHOT/reference/htmlsingle/#userdetailsservice-implementations
+ * 		1.In-Memory Authentication
+ * 		2.JdbcDaoImpl
  * Core interface which loads user-specific data.
  * <p>
  * It is used throughout the framework as a user DAO and is the strategy used by the

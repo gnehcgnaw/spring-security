@@ -16,6 +16,7 @@
 /**
  * Authentication user-interface rendering code. Used to conveniently create an appropriate login page when using namespace
  * configuration without defining a login page URL.
+ * 身份验证用户界面呈现代码。用于在使用命名空间*配置而不定义登录页面URL的情况下方便地创建适当的登录页面。
  */
 package org.springframework.security.web.authentication.ui;
 
